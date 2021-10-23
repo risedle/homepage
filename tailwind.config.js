@@ -9,8 +9,17 @@ module.exports = {
             fontFamily: {
                 inter: ["'Inter'", "sans-serif"],
             },
+            colors: {
+                blue: {
+                    DEFAULT: "#2D81FF",
+                },
+            },
         },
     },
-    variants: {},
-    plugins: [],
+    variants: {
+        extend: {
+            scale: ["hover"],
+        },
+    },
+    plugins: [require("@tailwindcss/aspect-ratio")],
 };

@@ -70,18 +70,10 @@ const Home: NextPage = () => {
                     <div className="flex-1 flex flex-row gap gap-x-8 justify-end">
                         <div>
                             <a
-                                href="https://twitter.com/risedle"
+                                href="https://github.com/risedle/etfs"
                                 className="font-inter font-semibold text-base leading-normal"
                             >
-                                Twitter
-                            </a>
-                        </div>
-                        <div>
-                            <a
-                                href="https://discord.gg/YCSCd97SXj"
-                                className="font-inter font-semibold text-base leading-normal"
-                            >
-                                Discord
+                                Github
                             </a>
                         </div>
                     </div>
